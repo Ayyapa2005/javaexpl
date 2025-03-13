@@ -5,7 +5,8 @@ public class  male{
         Scanner inp = new Scanner(System.in);
         System.out.println("Enter Your Gender: ");
         String n = inp.nextLine();
-        if(n.equals("m")){
+        String un = n.toUpperCase();
+        if(un.equals("M")){
             System.out.println("HELLO SIR, PLEASE ENTER YOUR NAME: ");
         }
         else{
