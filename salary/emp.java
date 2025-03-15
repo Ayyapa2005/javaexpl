@@ -10,10 +10,10 @@ public class  emp{
             String  empname = inp.nextLine();
             System.out.println("Enter your salary: ");
             int empSal = inp.nextInt();
-            int incrementede = empSal*(10/100);
+            int incrementede = (int)(empSal*(10.0/100.0));
             int incrementedsale = empSal +incrementede;
             System.out.println("un incremented salary:"+empSal);
-            System.out.println("Name:"+empname+"Designation"+empman+"incremented salary"+incrementedsale);
+            System.out.println("Name: "+"" + empname+" Designation: "+empman+","+ " incremented salary:"+incrementedsale);
 
 
         }
@@ -22,10 +22,10 @@ public class  emp{
             String  manname = inp.nextLine();
             System.out.println("Enter your salary: ");
             int mansal = inp.nextInt();
-            int incremented = mansal*(20/100);
+            int incremented =  (int)(mansal*(20.0/100.0));
             int incrementedsal = mansal+incremented;
             System.out.println("un incremented salary:"+mansal);
-            System.out.println("Name:"+manname+"Designation"+empman+"incremented salary"+incrementedsal);
+            System.out.println("Name: "+" ," +manname+ " Designation :"+empman+"," + " incremented salary:"+incrementedsal);
 
         }
     }
